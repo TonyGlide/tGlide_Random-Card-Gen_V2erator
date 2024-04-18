@@ -12,6 +12,17 @@ window.onload = function() {
     document.querySelector(".bottom").style.color = "red";
   }
 };
+
+const button = document.createElement("button");
+button.innerText = "auto refresh every 10 seconds";
+button.addEventListener(
+  "click",
+  function() {
+    location.reload();
+  },
+  3000
+);
+
 function values() {
   let ArrNum = [
     "2",
@@ -41,3 +52,5 @@ function symbol() {
   let sIndex = Math.floor(Math.random() * ArrSymbol.length);
   return ArrSymbol[sIndex];
 }
+
+document.body.append(button);

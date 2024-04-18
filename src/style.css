@@ -1,7 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background-color: green;
+  background-color: rgba(2, 49, 20, 0.753);
 }
 
 .card {
@@ -41,4 +41,18 @@ body {
   font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
   transform: rotate(180deg);
+}
+
+.container {
+  padding: 20px;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  font-style: normal;
+  color: azure;
+}
+
+.btn-group {
+  border-color: grey;
+  text-decoration-color: azure;
 }
